@@ -1,0 +1,18 @@
+:root{--bg:#f7fafc;--muted:#6b7280;--accent:#0f172a}
+body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:var(--bg);color:var(--accent)}
+.app-root{max-width:1100px;margin:24px auto;padding:12px}
+.app-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.app-body{display:grid;grid-template-columns:280px 1fr;gap:12px}
+.sidebar{background:#fff;padding:12px;border-radius:8px}
+.app-main{background:#fff;padding:12px;border-radius:8px}
+.chat-window{display:flex;flex-direction:column;height:70vh}
+.messages{flex:1;overflow:auto;padding:8px}
+.bubble{margin:8px 0;max-width:75%;padding:10px;border-radius:12px}
+.bubble.user{margin-left:auto;background:#0b63e5;color:white}
+.bubble.assistant{margin-right:auto;background:#f1f5f9}
+.bubble pre{margin:0;white-space:pre-wrap}
+.composer{display:flex;gap:8px;margin-top:8px}
+.composer textarea{flex:1;padding:8px;border-radius:6px;border:1px solid #e5e7eb}
+.composer-actions button{padding:8px 12px;border-radius:6px}
+.health{font-size:14px}
+.muted{color:var(--muted)}
