@@ -1,0 +1,26 @@
+[Unit]
+Description=Raspberry Pi Chatbot Server - FastAPI + Ollama
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/project1-chatbot-server
+Environment="PATH=/home/pi/project1-chatbot-server/venv/bin"
+ExecStart=/home/pi/project1-chatbot-server/venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000
+Restart=always
+RestartSec=10
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=chatbot-server
+
+# Security (optional)
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
