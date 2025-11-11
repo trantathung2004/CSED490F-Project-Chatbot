@@ -288,6 +288,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## Authors
 
-- Your Team Name
-- Course: [Course Name]
+- Team 13
+- Course: CSED490F - Deep Learning Implementation
 - Date: November 2025
