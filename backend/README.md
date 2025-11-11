@@ -49,15 +49,7 @@ ollama list
 # Clone the repository
 git clone https://github.com/trantathung2004/CSED490F-Project-Chatbot
 cd CSED490F-Project-Chatbot
-
-# # Make run script executable
-# chmod +x run.sh
-
-# # Run the server (this will create venv and install dependencies)
-# ./run.sh
-# ```
-
-# Or manually:
+```
 
 ```bash
 # Create virtual environment
