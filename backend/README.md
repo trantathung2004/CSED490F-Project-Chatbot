@@ -47,17 +47,17 @@ ollama list
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd project1-chatbot-server
+git clone https://github.com/trantathung2004/CSED490F-Project-Chatbot
+cd CSED490F-Project-Chatbot
 
-# Make run script executable
-chmod +x run.sh
+# # Make run script executable
+# chmod +x run.sh
 
-# Run the server (this will create venv and install dependencies)
-./run.sh
-```
+# # Run the server (this will create venv and install dependencies)
+# ./run.sh
+# ```
 
-Or manually:
+# Or manually:
 
 ```bash
 # Create virtual environment
